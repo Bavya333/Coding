@@ -1,0 +1,42 @@
+Intern Experience
+#####COMMON MISTAKES DONE#####
+1.Forgot changing editor from C to C++
+2.Didnt notice -ve marking scheme
+3.Try the problem using testcases not using examples explained.
+Sometimes examples might be different from actual test cases.
+4.Even for the worst of the worst problem
+you might end up in some answer.So keep on trying.
+5.
+
+#####--------------------#####
+Microsoft
+Easy pblms:
+1.Find the fine pblm in GFG
+2.Average ascii value of a String
+3.Find Uncommon nos in an array
+
+Medium:
+1.Reverse LinkedList in K groups
+2.Find nos not having consecutive ones
+3.First smallest integer palindrome greater than the given no
+
+Hard:
+1.Counsins of a no in a binary tree
+2.Reorder the Linked List in Leetcode
+3.Matrix pblm:All possible paths to traverse a matrix from its 0,0 to n-1,n-1 vertex
+
+#Myntra
+7 Questions:
+Coding:
+1.C++ Using Inheritance
+2.Replace a-th through b-th node of one linked list with Another List
+3.Find next lexicographically larger string for a given String
+4.3 java MCQs(Theoretical)
+5.1 C++ MCQ(Problematic)
+
+#Fourkites(1 Qn 2 hrs) Run count:10
+Treasures around a circular pond
+Should not dig adjacent Treasures
+Find the maximum monetary outcome
+Eg: 8 7 1 3 6 2 4
+Ans:17 (Taking 7 6 4)

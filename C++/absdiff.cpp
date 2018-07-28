@@ -1,0 +1,59 @@
+#include<iostream>
+#include<vector>
+#include<algorithm>
+using namespace std;
+int main()
+{
+    int a,i,megacount,count,t,n,k,t1,t2,d;
+    cin>>t;
+    while(t--)
+    {
+        megacount=1;
+        cin>>n>>k;
+        vector <int> v;
+        for(i=0;i<n;i++)
+        {
+            cin>>d;
+            v.push_back(d);
+        }
+        i=0;
+        while(i<v.size())
+        {
+            if(v[i]>=k)
+                v.erase(v.begin()+i);
+            else
+                i++;
+        }
+        i=0;
+        while(i<v.size())
+        {
+                d=v[i];
+                t1=d%10;
+                t2=t1;
+                d/=10;
+                count=1;
+                while(d)
+                {
+                    t1=t2;
+                    t2=d%10;
+                    d/=10;
+                    if(abs(t1-t2)==1)
+                        count=1;
+                    else
+                    {
+                        count=0;
+                        break;
+                    }
+                }
+                if(count)
+                {
+                    megacount=0;
+                    cout<<v[i]<<" ";
+                }
+                i++;
+        }
+        if(megacount)
+            cout<<"-1";
+        cout<<"\n";
+    }
+}

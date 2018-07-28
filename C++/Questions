@@ -1,0 +1,86 @@
+#include<algorithm>
+  -->sort()
+
+#include<bits/stdc++.h>
+  -->INT_MIN
+  -->INT_MAX
+
+#include<algorithm>
+  -->find(v.begin(),v.end(),no)
+
+absdiff.cpp
+Given an array.Print all numbers less than k in the array, with the fact that absolute difference between any adjacent digits should be 1.
+Note: Print '-1' if no number if valid.
+
+repeated_ids.cpp
+Raghav is given a task to select at most 10 employees for a company project.
+Each employee is  represented by a single digit I.D. number which is unique for all the selected employees of the project.
+Raghav has a technical problem in his system which printed I.D. number multiple times. Help him to get rid of the repeated numbers.
+
+arraytype.cpp
+Given an array having no duplicates, which can be of 4 types
+1.  Ascending
+2.  Descending
+3.  Descending Rotated
+4.  Ascending Rotated
+Your task is to print which type of array it is and the maximum element of that array.
+
+penalty.cpp
+Given an array of penalties, an array of car numbers and also the date.
+The task is to find the total fine which will be collected on the given date.
+ Fine is collected from odd-numbered cars on even dates and vice versa.
+
+kadane.cpp
+Given an array containing both negative and positive integers(may be all -ve also).
+Find the contiguous sub-array with maximum sum.
+
+wave_array.cpp
+Given an array of integers, sort the array into a wave-like array and return it.
+In other words, arrange the elements into a sequence such that a1 >= a2 <= a3 >= a4 <= a5.....
+Example
+Given [1, 2, 3, 4]
+One possible answer : [2, 1, 4, 3]
+Another possible answer : [4, 1, 3, 2]
+NOTE: If there are multiple answers possible, return the one that's lexicographically smallest.
+
+rainwatertrapping.cpp
+Given n non-negative integers in array representing an elevation map where the width of each bar is 1, compute how much water it is able to trap after raining.
+For example:
+Input:
+3
+2 0 2
+Output:
+2
+Structure is like below
+|  |
+|_|
+We can trap 2 units of water in the middle gap.
+
+max_sum.cpp
+Maximize the sum of selected numbers from an array to make it empty.
+Given an array of N numbers, we need to maximize the sum of selected numbers.
+At each step, you need to select a number A[i], delete one occurrence of A[i]-1 (if exists) and A[i] each from the array. Repeat these steps until the array gets empty.
+The problem is to maximize the sum of selected numbers.
+
+atoi.cpp
+Your task  is to implement the function atoi.
+The function takes a string(str) as argument and converts it to an integer and returns it.
+Input:
+The first line of input contains an integer T denoting the no of test cases .
+Then T test cases follow. Each test case contains a string str .
+Output:
+For each test case in a new line output will be an integer denoting the converted integer, if the input string is not a numerical string then output will be -1.
+
+2ndlargest.cpp(Simple solution)
+Given an array, return second  largest element from an array.
+
+reverse_words.cpp
+Given a String of length N reverse the whole string without reversing the individual words in it. Words are separated by dots.
+
+Input:
+The first line contains T denoting the number of testcases.
+Then follows description of testcases.
+Each case contains a string containing spaces and characters.
+
+sumleaf.cpp
+Given a Binary Tree of size N, your task is to complete the function sumLeaf(), that should return the sum of all the leaf nodes of the given binary tree.
